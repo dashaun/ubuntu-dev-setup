@@ -31,3 +31,9 @@ sudo mv /home/dashaun/.arkade/bin/kubens /usr/local/bin/
 ark get kubectx
 sudo mv /home/dashaun/.arkade/bin/kubectx /usr/local/bin/
 sudo apt install clusterssh
+
+##Git
+git config --global init.defaultBranch main
+git config --global user.email "dashaun@dashaun.com"
+git config --global user.name "DaShaun"
+
