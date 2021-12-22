@@ -1,6 +1,7 @@
 sudo apt update
 sudo apt upgrade -y
 sudo apt install i3 i3status dmenu -y
+curl -s "https://get.sdkman.io" | bash
 sudo apt install git
 sudo apt install apt-transport-https curl
 sudo curl -fsSLo /usr/share/keyrings/brave-browser-archive-keyring.gpg https://brave-browser-apt-release.s3.brave.com/brave-browser-archive-keyring.gpg
@@ -31,6 +32,7 @@ sudo mv /home/dashaun/.arkade/bin/kubens /usr/local/bin/
 ark get kubectx
 sudo mv /home/dashaun/.arkade/bin/kubectx /usr/local/bin/
 sudo apt install clusterssh
+sudo apt install obs-studio
 
 ##Git
 git config --global init.defaultBranch main
