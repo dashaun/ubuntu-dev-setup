@@ -6,6 +6,8 @@ sudo apt install i3 i3status dmenu -y
 
 # sdkman
 curl -s "https://get.sdkman.io" | bash
+sdk install java
+sdk install jbake
 
 # Brave
 sudo apt install apt-transport-https curl
